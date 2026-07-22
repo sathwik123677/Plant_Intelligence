@@ -1,0 +1,46 @@
+WORK ORDER HISTORY: HX-301 and T-201
+=====================================
+
+--- WORK ORDER WO-2023-0508 ---
+Date: 2023-12-14
+Equipment: HX-301
+Type: Corrective Maintenance
+Reported problem: Feed outlet temperature dropped to 62 C at normal
+steam pressure. Tube fouling suspected.
+Action taken: Stopped feed pump P-101. Isolated steam. Hydro-jetted
+tubes per manual section 3.1. Replaced channel head gaskets with set
+GS-301. Outlet temperature restored to 75 C.
+Technician: S. Iyer
+Downtime: 12 hours
+
+--- WORK ORDER WO-2024-0203 ---
+Date: 2024-05-30
+Equipment: HX-301
+Type: Inspection Follow-up
+Reported problem: Routine inspection found minor tube-side corrosion.
+Action taken: Plugged two leaking tubes. Pressure-tested. Returned to
+service. Recommend monitoring at next inspection.
+Technician: A. Khan
+Downtime: 8 hours
+
+--- WORK ORDER WO-2024-0390 ---
+Date: 2024-09-19
+Equipment: T-201 / V-203
+Type: Preventive Maintenance
+Reported problem: Annual relief valve test due for V-203.
+Action taken: Tested relief valve V-203 per manual section 2.1.
+As-found lift pressure: 10.4 bar (slightly high). Overhauled valve
+seat and re-tested. As-left lift pressure: 10.0 bar. Reseated cleanly.
+Technician: R. Mehta
+Downtime: 5 hours
+
+--- WORK ORDER WO-2024-0512 ---
+Date: 2024-12-03
+Equipment: T-201
+Type: Corrective Maintenance
+Reported problem: Level transmitter reading erratic, causing false low
+level alarms affecting feed to P-101.
+Action taken: Recalibrated level transmitter per manual section 2.2.
+Readings stabilized.
+Technician: S. Iyer
+Downtime: 2 hours

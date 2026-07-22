@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+
+  --color-base-950: #05070a;
+  --color-base-900: #0a0e14;
+  --color-base-850: #0d1219;
+  --color-base-800: #121822;
+  --color-base-700: #1b2432;
+  --color-base-600: #29354a;
+  --color-base-500: #3d4d68;
+
+  --color-cyan-glow: #22d3ee;
+  --color-amber-glow: #f59e0b;
+
+  --animate-pulse-slow: pulse 2.4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-base-950);
+  color: #e2e8f0;
+  font-family: var(--font-sans);
+  background-image:
+    radial-gradient(circle at 15% 0%, rgba(34, 211, 238, 0.08), transparent 40%),
+    radial-gradient(circle at 85% 15%, rgba(245, 158, 11, 0.06), transparent 35%);
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-base-600);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-base-500);
+}
+
+.glass {
+  background: rgba(18, 24, 34, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.text-glow-cyan {
+  text-shadow: 0 0 24px rgba(34, 211, 238, 0.35);
+}

@@ -1,0 +1,47 @@
+WORK ORDER HISTORY: P-101
+==========================
+Equipment Tag: P-101
+
+--- WORK ORDER WO-2023-0142 ---
+Date: 2023-04-18
+Equipment: P-101
+Type: Corrective Maintenance
+Reported problem: High vibration alarm, reading 7.8 mm/s. Bearing
+wear suspected.
+Action taken: Isolated P-101 via valve V-101, started standby pump
+P-102 to maintain feed. Replaced worn bearing (part BR-6208) per
+manual section 4.1. Re-aligned coupling. Vibration after repair:
+3.9 mm/s.
+Technician: R. Mehta
+Downtime: 6 hours
+
+--- WORK ORDER WO-2023-0311 ---
+Date: 2023-09-02
+Equipment: P-101
+Type: Preventive Maintenance
+Reported problem: Scheduled quarterly lubrication.
+Action taken: Greased bearings with high-temperature grease per
+manual section 4.3. No abnormalities found.
+Technician: S. Iyer
+Downtime: 1 hour
+
+--- WORK ORDER WO-2024-0087 ---
+Date: 2024-02-25
+Equipment: P-101
+Type: Corrective Maintenance
+Reported problem: Mechanical seal leaking, approx 15 drops per minute.
+Action taken: Isolated via V-101. Replaced mechanical seal using seal
+kit SK-101 per manual section 4.2. Leak stopped.
+Technician: R. Mehta
+Downtime: 4 hours
+
+--- WORK ORDER WO-2024-0455 ---
+Date: 2024-11-10
+Equipment: P-101
+Type: Corrective Maintenance
+Reported problem: Loss of flow. Investigation found strainer F-501
+partially blocked.
+Action taken: Cleaned basket strainer F-501. Flow restored to
+120 m3/h. Note: recommend more frequent strainer cleaning.
+Technician: A. Khan
+Downtime: 3 hours

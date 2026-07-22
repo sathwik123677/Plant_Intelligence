@@ -1,0 +1,31 @@
+PLANT EQUIPMENT REGISTRY - RIVERSIDE PROCESSING UNIT
+=====================================================
+Last updated: 2026-01-15
+
+This registry lists all major equipment in the plant with their tags,
+type, location, and connected equipment. Equipment tags follow the
+convention: [TYPE-LETTER][NUMBER]. P=Pump, V=Valve, HX=Heat Exchanger,
+T=Tank, C=Compressor, F=Filter.
+
+--- PUMPS ---
+P-101 | Centrifugal Pump | Feed Section | Pumps raw feed from Tank T-201 into Heat Exchanger HX-301. Driven by 50 HP motor. Downstream of valve V-101.
+P-102 | Centrifugal Pump | Feed Section | Standby pump for P-101. Identical model. Auto-starts on P-101 failure.
+P-103 | Positive Displacement Pump | Chemical Dosing | Doses corrosion inhibitor into main line. Low flow, high precision.
+
+--- VALVES ---
+V-101 | Gate Valve | Feed Section | Isolation valve upstream of pump P-101. Manual operation.
+V-102 | Control Valve | Feed Section | Regulates flow from HX-301 to Tank T-202. Pneumatically actuated.
+V-203 | Relief Valve | Storage | Pressure relief valve on Tank T-201. Set to 10 bar.
+
+--- HEAT EXCHANGERS ---
+HX-301 | Shell-and-Tube Heat Exchanger | Process Section | Heats feed from P-101 using steam. Feeds Tank T-202.
+
+--- TANKS ---
+T-201 | Storage Tank | Storage | Raw feed storage, 50,000 L. Protected by relief valve V-203. Feeds pump P-101.
+T-202 | Buffer Tank | Process Section | Receives heated product from HX-301 via valve V-102.
+
+--- COMPRESSORS ---
+C-401 | Reciprocating Compressor | Utilities | Supplies instrument air for pneumatic valves including V-102.
+
+--- FILTERS ---
+F-501 | Basket Strainer | Feed Section | Removes particulates upstream of pump P-101. Cleaned monthly.

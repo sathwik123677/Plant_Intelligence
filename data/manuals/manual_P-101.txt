@@ -1,0 +1,48 @@
+EQUIPMENT MANUAL: P-101 CENTRIFUGAL PUMP
+=========================================
+Manual ID: MAN-P101
+Equipment Tag: P-101
+Type: Centrifugal Pump, 50 HP
+Location: Feed Section
+
+DESCRIPTION
+-----------
+P-101 is the primary feed pump. It draws raw feed from storage tank
+T-201 through basket strainer F-501 and gate valve V-101, and
+discharges into heat exchanger HX-301. Standby pump P-102 provides
+backup and auto-starts if P-101 fails.
+
+OPERATING PARAMETERS
+--------------------
+Normal flow rate: 120 m3/h
+Normal discharge pressure: 8 bar
+Maximum bearing temperature: 80 C
+Normal vibration: below 4.5 mm/s
+
+MAINTENANCE PROCEDURES
+----------------------
+Section 4.1 - Bearing Replacement
+Bearings should be replaced when vibration exceeds 7 mm/s or every
+20,000 operating hours. Procedure:
+1. Isolate pump by closing valve V-101 and stopping the motor.
+2. Confirm standby pump P-102 is running to maintain feed.
+3. Drain the pump casing.
+4. Remove coupling guard and decouple motor.
+5. Remove bearing housing end cover.
+6. Extract worn bearing using a bearing puller.
+7. Install new bearing (part no. BR-6208) and reassemble.
+8. Re-align coupling to within 0.05 mm.
+9. Restart and confirm vibration is below 4.5 mm/s.
+
+Section 4.2 - Mechanical Seal Replacement
+Replace the mechanical seal if leakage exceeds 10 drops per minute.
+Use seal kit SK-101. Always isolate via V-101 first.
+
+Section 4.3 - Routine Lubrication
+Grease bearings every 3 months with high-temperature grease.
+
+COMMON FAULTS
+-------------
+- High vibration: usually bearing wear or coupling misalignment.
+- Loss of flow: check strainer F-501 for blockage, check V-101 is open.
+- Overheating: check lubrication and bearing condition.

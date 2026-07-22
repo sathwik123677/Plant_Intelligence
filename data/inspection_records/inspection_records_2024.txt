@@ -1,0 +1,57 @@
+INSPECTION RECORDS - 2024
+==========================
+Riverside Processing Unit
+Annual and periodic inspection log
+
+--- INSPECTION INS-2024-011 ---
+Date: 2024-01-20
+Equipment: P-101
+Inspector: D. Rao
+Findings: Vibration measured at 4.1 mm/s, within normal range.
+Bearing temperature 68 C, normal. No seal leakage observed.
+Condition: Good. Note bearing was replaced in WO-2023-0142; performing
+well since.
+
+--- INSPECTION INS-2024-024 ---
+Date: 2024-03-15
+Equipment: F-501
+Inspector: D. Rao
+Findings: Basket strainer showing moderate particulate buildup.
+Recommend cleaning within one month. This strainer protects pump
+P-101 and repeated blockage has caused P-101 flow loss historically.
+Condition: Fair. Action recommended.
+
+--- INSPECTION INS-2024-039 ---
+Date: 2024-05-28
+Equipment: HX-301
+Inspector: M. Fernandes
+Findings: Minor tube-side corrosion detected during internal
+inspection. Two tubes showing wall thinning. Recommend corrective
+action. (Followed up in WO-2024-0203.)
+Condition: Fair. Action required.
+
+--- INSPECTION INS-2024-055 ---
+Date: 2024-08-10
+Equipment: V-203
+Inspector: M. Fernandes
+Findings: Relief valve on tank T-201 due for annual test. Visual
+inspection shows minor seat weepage. Recommend testing and possible
+overhaul. (Followed up in WO-2024-0390.)
+Condition: Fair. Test required.
+
+--- INSPECTION INS-2024-071 ---
+Date: 2024-10-05
+Equipment: C-401
+Inspector: D. Rao
+Findings: Reciprocating compressor supplying instrument air operating
+normally. Discharge pressure stable. Instrument air feeds pneumatic
+valves including V-102. No action required.
+Condition: Good.
+
+--- INSPECTION INS-2024-088 ---
+Date: 2024-12-18
+Equipment: P-101
+Inspector: D. Rao
+Findings: Year-end inspection. Vibration 3.9 mm/s, bearing temp 70 C,
+no seal leakage. Strainer F-501 recently cleaned (WO-2024-0455).
+Condition: Good.

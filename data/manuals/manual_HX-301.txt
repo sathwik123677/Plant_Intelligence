@@ -1,0 +1,42 @@
+EQUIPMENT MANUAL: HX-301 SHELL-AND-TUBE HEAT EXCHANGER
+=======================================================
+Manual ID: MAN-HX301
+Equipment Tag: HX-301
+Type: Shell-and-Tube Heat Exchanger
+Location: Process Section
+
+DESCRIPTION
+-----------
+HX-301 heats the raw feed delivered by pump P-101 using steam on the
+shell side. Heated product flows out through control valve V-102 into
+buffer tank T-202.
+
+OPERATING PARAMETERS
+--------------------
+Feed inlet temperature: 25 C
+Feed outlet temperature: 75 C
+Steam pressure: 6 bar
+Maximum tube-side pressure: 12 bar
+
+MAINTENANCE PROCEDURES
+----------------------
+Section 3.1 - Tube Cleaning
+Fouling reduces heat transfer efficiency. Clean tubes when outlet
+temperature drops below 65 C at normal steam pressure. Procedure:
+1. Stop feed pump P-101 and confirm standby P-102 is off.
+2. Isolate steam supply.
+3. Open drain valves and empty shell and tube sides.
+4. Remove channel head covers.
+5. Hydro-jet the tubes to remove scale and fouling.
+6. Inspect tubes for corrosion or thinning.
+7. Reassemble and pressure-test before returning to service.
+
+Section 3.2 - Gasket Replacement
+Replace channel head gaskets whenever the head is opened. Use gasket
+set GS-301.
+
+COMMON FAULTS
+-------------
+- Low outlet temperature: tube fouling or low steam pressure.
+- Leakage between shell and tube side: tube failure, requires plugging.
+- High pressure drop: fouling or partial blockage.

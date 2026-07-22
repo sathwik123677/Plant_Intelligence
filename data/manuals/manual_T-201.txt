@@ -1,0 +1,39 @@
+EQUIPMENT MANUAL: T-201 STORAGE TANK
+=====================================
+Manual ID: MAN-T201
+Equipment Tag: T-201
+Type: Storage Tank, 50,000 L
+Location: Storage
+
+DESCRIPTION
+-----------
+T-201 stores raw feed for the process. It supplies feed pump P-101.
+The tank is protected against overpressure by relief valve V-203,
+which is set to lift at 10 bar.
+
+OPERATING PARAMETERS
+--------------------
+Capacity: 50,000 L
+Normal operating level: 40 to 80 percent
+Design pressure: 12 bar
+Relief valve V-203 set pressure: 10 bar
+
+MAINTENANCE PROCEDURES
+----------------------
+Section 2.1 - Relief Valve V-203 Testing
+Relief valve V-203 must be tested annually to confirm it lifts at the
+correct set pressure. Procedure:
+1. Notify control room before testing.
+2. Isolate the tank if required.
+3. Apply test pressure and confirm V-203 lifts at 10 bar.
+4. Confirm it reseats cleanly with no leakage.
+5. Record the as-found and as-left set pressures.
+
+Section 2.2 - Level Gauge Calibration
+Calibrate the level transmitter every 6 months.
+
+COMMON FAULTS
+-------------
+- Relief valve V-203 leaking: worn seat, requires overhaul.
+- False level readings: level transmitter drift, needs calibration.
+- Feed starvation to P-101: check tank level and outlet valve.
