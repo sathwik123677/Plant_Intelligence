@@ -7,9 +7,9 @@ import { splitText } from './vectorstore.js';
 import type { DocumentRecord, ChunkRecord } from '../types.js';
 
 const CANDIDATE_EMBED_MODELS = [
-  'text-embedding-004',
   'models/gemini-embedding-2-preview',
-  'embedding-001'
+  'models/gemini-embedding-2',
+  'models/gemini-embedding-001'
 ];
 
 export function getGeminiKey(userKey?: string): string {
