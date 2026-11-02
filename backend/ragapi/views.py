@@ -74,7 +74,10 @@ def chat_endpoint(request):
 
     ChatMessage.objects.create(session_id=session_id, role="user", content=message)
 
-    result = chat_service.ask(message, api_key=_api_key(request))
+    try:
+        result = chat_service.ask(message, api_key=_api_key(request))
+    except Exception as exc:
+        return Response({"error": str(exc)}, status=500)
 
     ChatMessage.objects.create(
         session_id=session_id,

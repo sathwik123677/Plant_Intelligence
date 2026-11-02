@@ -10,7 +10,7 @@ from langchain_classic.chains import RetrievalQA
 from langchain_neo4j import Neo4jGraph, GraphCypherQAChain
 from langchain_core.prompts import PromptTemplate
 
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0)
+llm = ChatGoogleGenerativeAI(model="gemini-3.8-flash", temperature=0)
 
 # ---------- SYSTEM 1: Vector RAG (from main.py) ----------
 embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-2-preview")

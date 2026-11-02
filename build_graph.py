@@ -21,7 +21,7 @@ graph = Neo4jGraph(
 )
 
 # ---- STEP 3: Set up the LLM that extracts the graph ----
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0)
+llm = ChatGoogleGenerativeAI(model="gemini-3.8-flash", temperature=0)
 
 transformer = LLMGraphTransformer(
     llm=llm,

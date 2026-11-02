@@ -13,7 +13,7 @@ graph = Neo4jGraph(
 )
 graph.refresh_schema()
 
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0)
+llm = ChatGoogleGenerativeAI(model="gemini-3.8-flash", temperature=0)
 
 # A prompt that teaches the LLM how YOUR graph's directions work.
 CYPHER_PROMPT = PromptTemplate(

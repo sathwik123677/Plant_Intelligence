@@ -107,7 +107,9 @@ export default function ChatPanel({ sessionId, disabled }) {
                   : "bg-white/[0.03] text-slate-200"
               }`}
             >
-              <p className="whitespace-pre-wrap">{m.content}</p>
+              <p className="whitespace-pre-wrap">
+                {typeof m.content === "string" ? m.content : JSON.stringify(m.content)}
+              </p>
               {m.role === "assistant" && <SourceList sources={m.sources} />}
             </div>
           </motion.div>

@@ -34,7 +34,7 @@ vectorstore = Chroma.from_documents(
 retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
 
 # ---- STEP 5: Build the chain ----
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0)
+llm = ChatGoogleGenerativeAI(model="gemini-3.8-flash", temperature=0)
 qa_chain = RetrievalQA.from_chain_type(
     llm=llm,
     chain_type="stuff",
