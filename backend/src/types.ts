@@ -24,3 +24,4 @@ export interface ChunkRecord {
   content: string;
   embedding: number[];
 }
+

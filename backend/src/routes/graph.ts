@@ -20,3 +20,4 @@ router.get('/summary/', async (_req, res) => {
 });
 
 export default router;
+

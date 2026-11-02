@@ -17,7 +17,6 @@ without uploading anything yourself.
 - **`backend/`** — TypeScript + Node.js (Express). Ingests documents (PDF/TXT
   chunking → Gemini embeddings → vector store), serves the chat and GraphRAG API,
   processes uploads asynchronously in the background.
-- **`backend-django/`** — Preserved reference implementation of the original Python Django backend.
 - **`data/`, `main.py`, `build_graph.py`, `query_graph.py`, `compare.py`** —
   standalone RAG scripts kept for reference.
 
