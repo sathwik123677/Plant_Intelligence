@@ -14,16 +14,15 @@ without uploading anything yourself.
 
 - **`frontend/`** — React + Vite + Tailwind. Drag-and-drop upload, live status
   polling, chat UI with source citations, GraphRAG side panel.
-- **`backend/`** — Django + Django REST Framework. Ingests documents (chunk →
-  embed → Chroma vector store), serves the chat/graph API, processes uploads
-  in a background thread so the UI never blocks.
+- **`backend/`** — TypeScript + Node.js (Express). Ingests documents (PDF/TXT
+  chunking → Gemini embeddings → vector store), serves the chat and GraphRAG API,
+  processes uploads asynchronously in the background.
+- **`backend-django/`** — Preserved reference implementation of the original Python Django backend.
 - **`data/`, `main.py`, `build_graph.py`, `query_graph.py`, `compare.py`** —
-  the original standalone RAG scripts this app is built on top of (kept as
-  reference; not needed to run the website).
+  standalone RAG scripts kept for reference.
 
 ## Prerequisites
 
-- Python 3.12+
 - Node.js 20+
 - A free **Google AI Studio** API key: https://aistudio.google.com/apikey
 - *(Optional, for the Graph Insights panel)* a free **Neo4j AuraDB** instance:
@@ -43,22 +42,15 @@ Edit `.env` and set `GOOGLE_API_KEY` at minimum. The `NEO4J_*` values are
 optional — without them, the app runs fine and the "Graph Insights" panel
 simply shows an "unavailable" state instead of crashing.
 
-### 2. Backend (Django)
+### 2. Backend (TypeScript / Node.js)
+
+In your first terminal:
 
 ```bash
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
-
-pip install -r requirements.txt
-
 cd backend
-python manage.py migrate
-python manage.py seed_demo   # loads the pre-built demo plant corpus (one-time)
-python manage.py runserver
+npm install
+npm run seed   # loads the pre-built demo plant corpus into the vector store
+npm run dev
 ```
 
 Backend runs at **http://127.0.0.1:8000**.
@@ -92,8 +84,8 @@ Frontend runs at **http://localhost:5173** — open this in your browser.
    browser will then run on your own quota instead of the host's.
 5. **Starting over.** The "Clear all" button in the upload panel wipes every
    document and resets the vector store, in case you want to test with a
-   completely fresh set of documents. (Run `python manage.py seed_demo` again
-   afterward if you want the demo plant corpus back.)
+   completely fresh set of documents. (Run `npm run seed` again
+   afterward in `backend/` if you want the demo plant corpus back.)
 
 ## Notes for evaluators
 

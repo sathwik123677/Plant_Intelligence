@@ -7,7 +7,15 @@ project_summary.md
 *.code-workspace
 .vscode/
 
-# backend
+# backend (TypeScript / Node.js)
+backend/node_modules/
+backend/dist/
+backend/uploads/
+backend/data.sqlite
+
+# legacy backend (Django)
+backend-django/db.sqlite3
+backend-django/media/
 backend/db.sqlite3
 backend/media/
 
