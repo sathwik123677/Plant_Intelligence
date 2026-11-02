@@ -17,8 +17,7 @@ without uploading anything yourself.
 - **`backend/`** — TypeScript + Node.js (Express). Ingests documents (PDF/TXT
   chunking → Gemini embeddings → vector store), serves the chat and GraphRAG API,
   processes uploads asynchronously in the background.
-- **`data/`, `main.py`, `build_graph.py`, `query_graph.py`, `compare.py`** —
-  standalone RAG scripts kept for reference.
+- **`data/`** — Demo plant corpus (manuals, work orders, inspection records) loaded into the vector store by the setup command.
 
 ## Prerequisites
 
